@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import logo from "./logo.png";
 import "./App.css";
 
-const OPEN_WEATHER_API_KEY = REACT_APP_API_KEY; // Replace with your API key
+const OPEN_WEATHER_API_KEY = process.env.REACT_APP_API_KEY; // Replace with your API key
 
 class App extends Component {
   constructor(props) {
